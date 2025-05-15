@@ -1,6 +1,6 @@
 SPK_NAME = PackageCapability
-SPK_VERS = 1.0.0
-SPK_REV = 1
+SPK_VERS = 1.1.0
+SPK_REV = 2
 # SPK_ICON = src/scm.png
 
 DEPENDS = 
