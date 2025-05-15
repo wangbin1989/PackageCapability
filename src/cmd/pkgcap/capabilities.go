@@ -9,7 +9,7 @@ import (
 
 var allowedCapabilities = map[string][]string{
 	"PackageCapability": {"CAP_DAC_OVERRIDE", "CAP_SETFCAP"},
-	"ADGUARDHOME":       {"CAP_NET_BIND_SERVICE", "CAP_NET_RAW"},
+	"AdGuardHome":       {"CAP_NET_BIND_SERVICE", "CAP_NET_RAW"},
 }
 
 func checkCapabilities(packageName string, caps []string) {
