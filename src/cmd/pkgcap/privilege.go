@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/wangbin1989/scm/src/common"
+	"github.com/wangbin1989/PackageCapability/common"
 )
 
 type Privilege struct {

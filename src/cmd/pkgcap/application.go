@@ -4,7 +4,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/wangbin1989/scm/src/common"
+	"github.com/wangbin1989/PackageCapability/common"
 )
 
 func UpdateCapabilities(packageName, relPath, capabilities string) {

@@ -24,5 +24,5 @@ func main() {
 }
 
 func usage() {
-	fmt.Println("Usage: scmset <package_name> <relpath> <capability1>,<capability2>,...")
+	fmt.Println("Usage: pkgcap <package_name> <relpath> <capability1>,<capability2>,...")
 }
