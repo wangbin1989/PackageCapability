@@ -2,7 +2,6 @@ package main
 
 import (
 	"log"
-	"strings"
 
 	"github.com/wangbin1989/PackageCapability/common"
 )
@@ -14,7 +13,7 @@ var allowedCapabilities = map[string][]string{
 
 func checkCapabilities(packageName string, caps []string) {
 	// 检查权限列表
-	allowedCaps, exists := allowedCapabilities[strings.ToUpper(packageName)]
+	allowedCaps, exists := allowedCapabilities[packageName]
 	if !exists {
 		log.Fatalf("Package [%s] is not allowed.", packageName)
 	}

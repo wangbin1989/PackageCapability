@@ -21,10 +21,6 @@ SPK_DEPENDS =
 SERVICE_USER = auto
 SERVICE_SETUP = src/service-setup.sh
 
-# CONF_DIR = src/conf/
-# DSM_UI_DIR = app
-# DSM_UI_CONFIG = src/app/config
-
 COPY_TARGET = nop
 POST_STRIP_TARGET = PackageCapability_custom_post_strip
 
@@ -32,6 +28,6 @@ include ../../mk/spksrc.spk.mk
 
 .PHONY: PackageCapability_custom_post_strip
 PackageCapability_custom_post_strip:
-	@mkdir -p $(STAGING_DIR)/usr/local/bin
-	@cp -av bin/* $(STAGING_DIR)/usr/local/bin
+	@mkdir -p $(STAGING_DIR)/bin
+	@cp -av bin/* $(STAGING_DIR)/bin
 	@cp -av src/first-install.sh $(STAGING_DIR)/first-install.sh

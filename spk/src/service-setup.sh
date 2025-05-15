@@ -1,5 +1,5 @@
 PKGCAP_BIN=/usr/local/bin/pkgcap
-UPDATE_BIN=usr/local/bin/update
+UPDATE_BIN=bin/update
 UPDATE_TARGET=${SYNOPKG_PKGDEST}/${UPDATE_BIN}
 
 service_postinst() {
